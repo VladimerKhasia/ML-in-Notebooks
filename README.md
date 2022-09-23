@@ -2,7 +2,7 @@
 
 ♾️ in development
 
-The goal of these notebooks is to provide me and other lifelong learners with google colab implementations to stop low-end hardware from being a barrier to our curiosity. An essential part of these notebooks uses, combines, or reimplements other people's work I used for learning, so feel free to use the code as you like without mentioning me, but do not forget to reference others. Good luck!
+The goal of these notebooks is to provide me and other lifelong learners with google colab implementations to stop low-end hardware from being a barrier to our curiosity. An essential part of these notebooks uses, combines, or reimplements other people's work I learned from, so feel free to use the code as you like without mentioning me, but do not forget to reference others. Good luck!
 
 P.S.
 
