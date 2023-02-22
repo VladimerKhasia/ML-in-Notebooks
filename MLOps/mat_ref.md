@@ -12,6 +12,7 @@
 
 - https://www.youtube.com/watch?v=LdLFJUlPa4Y&list=PLBoQnSflObckkY7EzV02jifGKgwtBdBW8
 
+<br>
 
 ## Hands-on Labs:
 
@@ -21,11 +22,13 @@
 
 - check other labs: [here](https://cloud.google.com/compute/docs?utm_source=google&utm_medium=cpc&utm_campaign=emea-none-all-en-dr-sitelink-all-all-trial-p-gcp-1011340&utm_content=text-ad-none-any-DEV_c-CRE_574805387431-ADGP_Hybrid%20%7C%20BKWS%20-%20PHR%20%7C%20Txt%20~%20Compute%20~%20Compute%20Engine%23v1-KWID_43700069710114266-kwd-295775030776-userloc_1007469&utm_term=KW_google%20cloud%20computing-ST_google%20cloud%20computing-NET_g-PLAC_&gclid=CjwKCAiA9NGfBhBvEiwAq5vSy1FFvb2AB4aEfCXkYGN_3i7KRsIUBkpUEXmI2MkgnOoYbvkF7ftnshoC5YMQAvD_BwE&gclsrc=aw.ds)
 
-
+<br>
 
 ## Handouts
 
 **PART 1 - General:**
+
+<br>
 
 concept and data drift - inflation-->houseprice and large house-->houseprice example
 (there is also covariate shift/notdrift when x and y distributions change but x-->y mapping does not)
@@ -39,9 +42,11 @@ ML experiment tracking tools: weights and biases, comet ml, mlflow, sagemaker st
 
 Good Data: is big enough; covers important inputs; is labeled consistently; concept/data drift covered.
 
-
+<br>
 
 **PART 2 - Data Handling:**
+
+<br>
 
 General and Data Collection and papers:
 
@@ -74,6 +79,7 @@ process feedback labling:
 
 Tensorflow: exampleGen splits data --> statisticGen produces mean std etc.--> schemaGen checks data types
 
+<br>
 
 TFDV - tensorflow data validation:
 
@@ -98,6 +104,8 @@ e.g. tft.scale_to_z_score(...) for standartizing.
 
 tf_metadata for storing data types and more
 
+<br>
+
 Feature Engineering:
 
    squeeze most information out of data with least features 
@@ -112,6 +120,7 @@ Feature Engineering:
 
 	feature crossing: devide, multiply many etc. If categorical combine week+time
 
+<br>
 
 Feature Selection:
 
@@ -185,7 +194,7 @@ https://www.tensorflow.org/tfx/guide#tfx_pipelines
 https://ai.googleblog.com/2017/02/preprocessing-for-machine-learning-with.html
 
 
-
+<br>
 
 Data Leneage:
 
@@ -211,7 +220,7 @@ other data versioning tools:   https://dvc.org/ , https://git-lfs.com/
 
 Schema includes: feature names, types, required vs optional, one vs multyple value in feature etc.
 
-Features: are also precomputed time to time and stored, used for inference.
+Features: precomputed time to time and stored, used for inference.
 
 - https://cloud.google.com/blog/products/ai-machine-learning/introducing-feast-an-open-source-feature-store-for-machine-learning
 
@@ -225,6 +234,7 @@ differs from database because: 1. It's for analytical purpose 2.also stores hist
 
 differs from data lake, which is just raw data storage
 
+<br>
 
 Advanced Labeling:
 
@@ -296,9 +306,11 @@ Advanced Labeling:
 
    method removing useless data: https://www.deeplearning.ai/the-batch/new-method-removes-useless-machine-learning-data/?utm_campaign=The%20Batch&utm_content=238362150&utm_medium=social&utm_source=twitter&hss_channel=tw-992153930095251456
 
-
+<br>
 
 **PART 3 - Model Handling:**
+
+<br>
 
 AutoML:
 
@@ -330,6 +342,7 @@ AutoML:
 
 		https://cloud.google.com/compute/docs?utm_source=google&utm_medium=cpc&utm_campaign=emea-none-all-en-dr-sitelink-all-all-trial-p-gcp-1011340&utm_content=text-ad-none-any-DEV_c-CRE_574805387431-ADGP_Hybrid%20%7C%20BKWS%20-%20PHR%20%7C%20Txt%20~%20Compute%20~%20Compute%20Engine%23v1-KWID_43700069710114266-kwd-295775030776-userloc_1007469&utm_term=KW_google%20cloud%20computing-ST_google%20cloud%20computing-NET_g-PLAC_&gclid=CjwKCAiA9NGfBhBvEiwAq5vSy1FFvb2AB4aEfCXkYGN_3i7KRsIUBkpUEXmI2MkgnOoYbvkF7ftnshoC5YMQAvD_BwE&gclsrc=aw.ds
 
+<br>
 
 Lowering Resource Requirements:
 
@@ -349,19 +362,19 @@ Lowering Resource Requirements:
 
         latent semantic indexing/analysis LSI/LSA - singular value decomposition SVD
 
-            unlike PCA the SVD can be used for nonsquare and sparce matrices 
+        unlike PCA the SVD can be used for nonsquare and sparce matrices 
 
         independent component analysis ICA
 
         https://arxiv.org/pdf/1404.2986.pdf
 
-            if PCA removes correlations ICA removes correlations and higher order dependence
+        if PCA removes correlations ICA removes correlations and higher order dependence
 
-            and for ICA all components are equally important unlike PCA
+        and for ICA all components are equally important unlike PCA
 
         matrix factorization: non-negative matrix factorization NMF
         
-            unlike PCA NMF is interpretable but operates only on non-negative data
+        unlike PCA NMF is interpretable but operates only on non-negative data
 
         latent methods: latent dirichlet allocation LDA
 
