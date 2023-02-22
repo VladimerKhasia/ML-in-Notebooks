@@ -129,13 +129,11 @@ supervised casses --> idea is to select those that cause right predictions the m
 
    There are three method groups>>
 
-   Filter Methods: 
+   1. Filter Methods: 
 
-	correlation> 
+	- correlation> 
 
-	   pearson correlation: linear relationships, 
-
-		   feature-feature corr is bad and remove,feature-target corr is good.
+	   pearson correlation: linear relationships, feature-feature corr is bad and remove,feature-target corr is good.
 
 	   kendall tau rank correlation coefficient: monotonic relationships + small sample.
 
@@ -147,7 +145,7 @@ supervised casses --> idea is to select those that cause right predictions the m
 
 	   Chi-squared test
 
-	univariate feature selection> 
+	- univariate feature selection> 
 
 	   means that each features correlation with target is assessed separately (Anova)
 
@@ -159,21 +157,19 @@ supervised casses --> idea is to select those that cause right predictions the m
 
 		for classification--> mutual_info_classif, f_classif, chi2
 
-   Wrapper Methods:
+   2. Wrapper Methods:
 
-	forward elimination            --> selects good features one-by-one - from zero up
+        forward elimination            --> selects good features one-by-one - from zero up
 
-	backward elimination           --> removes least important features - from all down
+        backward elimination           --> removes least important features - from all down
 
-	recursive feature elimination  --> we define how many features we want and 
+        recursive feature elimination  --> we define how many features we want and recursively eliminate least important ones
 
-					   recursively eliminate least important ones
+   3. Embeded Methods: 
 
-   Embeded Methods: 
+        L1 Regularization
 
-	L1 Regularization
-
-	Feature Importance
+        Feature Importance
 
 
 Feature engineering and selection references:
