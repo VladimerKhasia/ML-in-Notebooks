@@ -44,20 +44,29 @@ Good Data: is big enough; covers important inputs; is labeled consistently; conc
 PART 2 - Data Handling:
 
 General and Data Collection and papers:
+
 	https://cd.foundation/blog/2020/02/11/announcing-the-cd-foundation-mlops-sig/
+
 	https://karpathy.medium.com/software-2-0-a64152b37c35
+
 	https://pair.withgoogle.com/chapter/data-collection/
+
 	https://developers.google.com/machine-learning/guides/rules-of-ml
+
 	https://ai.googleblog.com/2018/09/introducing-inclusive-images-competition.html
 
 	https://papers.nips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf
+
 	https://arxiv.org/abs/2010.02013
 
 process feedback labling:
 (1.) automatic labling of live data - apply label based on prediction
 (2.) label can be created based on some logs we deigned with logging tools, like:
+
 	https://www.elastic.co/logstash/ 
+
 	https://www.fluentd.org/
+
 	for cloud:  https://cloud.google.com/logging, aws elasticsearch, azure monitor
 
 
@@ -69,7 +78,9 @@ TFDV - tensorflow data validation:
 1. schema skew        - change in data types int vs float etc. 
 2. feature skew       - when feature values change
 3. distribution skew  - inside individual feature distribution changes (mean, std etc.)
+
 	https://blog.tensorflow.org/2018/09/introducing-tensorflow-data-validation.html
+
 	https://en.wikipedia.org/wiki/Chebyshev_distance	
 
 
@@ -116,7 +127,7 @@ supervised casses --> idea is to select those that cause right predictions the m
 	Feature Importance
 
 
-*Feature engineering and selection references:
+Feature engineering and selection references:
 https://developers.google.com/machine-learning/crash-course/representation/feature-engineering
 https://pair-code.github.io/facets/
 http://projector.tensorflow.org/
@@ -155,7 +166,9 @@ Advanced Labeling:
    label propagation to the (in the feature space) nearby unlabeled data 
    (propagate labels of your labeled data to other unlabeled data based on
    how near is an unlabeled datapoint to labeled one in the feature space)
-   ** https://arxiv.org/pdf/1904.04717.pdf
+
+   https://arxiv.org/pdf/1904.04717.pdf
+
 2. active learning:
    label and learn what you do not know by >>
    -margine sampling  --> label points that are near decission boundry, so are less certain
@@ -174,18 +187,27 @@ Advanced Labeling:
    (chop off last layer of your model and make output corresponding to that 
    label probabilities if needed)
 
-   ## https://www.youtube.com/watch?v=SS9fvo8mR9Y&list=LL&index=2
-   ## https://www.youtube.com/watch?v=M7r5SGIxxpI&list=LL&index=2
-   ** Paper: "Weak supervision: the new programming paradigm for machine learning" Alex Ratner et al
+   https://www.youtube.com/watch?v=SS9fvo8mR9Y&list=LL&index=2
+
+   https://www.youtube.com/watch?v=M7r5SGIxxpI&list=LL&index=2
+
+   Paper: "Weak supervision: the new programming paradigm for machine learning" Alex Ratner et al
+
       https://ajratner.github.io/assets/papers/deem-metal-prototype.pdf
-   ** https://ajratner.github.io/ 
+
+      https://ajratner.github.io/ 
 
    actual tool is snorkel: 
+
 	https://www.snorkel.org/
+
 	https://snorkel.ai/weak-supervision/#:~:text=Weak%20supervision%20is%20an%20approach,manually%2C%20one%20by%20one).
-***just augment already labeled data
+
+   just augment already labeled data
    - unsupervised data augmentation: https://github.com/google-research/uda
+
    - auto augmentation: https://ai.googleblog.com/2018/06/improving-deep-learning-performance.html
+
    method removing useless data: https://www.deeplearning.ai/the-batch/new-method-removes-useless-machine-learning-data/?utm_campaign=The%20Batch&utm_content=238362150&utm_medium=social&utm_source=twitter&hss_channel=tw-992153930095251456
 
 
@@ -194,18 +216,28 @@ PART 3 - Model Handling:
 
 AutoML:
    Neural Architecture Search Strategies >>
+
 	https://arxiv.org/pdf/1808.05377.pdf
+
 	https://distill.pub/2020/bayesian-optimization/
+
 	https://arxiv.org/pdf/1611.01578.pdf
+
 	https://arxiv.org/pdf/1712.00559.pdf
+
 	https://arxiv.org/abs/1603.01670
+
    Tool e.g. keras-tuner
    Tools on cloud:
 	amazon sagemaker autopilot: https://aws.amazon.com/sagemaker/autopilot/?sagemaker-data-wrangler-whats-new.sort-by=item.additionalFields.postDateTime&sagemaker-data-wrangler-whats-new.sort-order=desc
+
 	microsoft azure automated machine learning:  https://azure.microsoft.com/en-in/products/machine-learning/automatedml/ 
+
 	google cloud automl: https://cloud.google.com/automl
-        * some hands-on labs: 
+
+        some hands-on labs: 
 		https://www.cloudskillsboost.google/focuses/2794?parent=catalog
+
 		https://cloud.google.com/compute/docs?utm_source=google&utm_medium=cpc&utm_campaign=emea-none-all-en-dr-sitelink-all-all-trial-p-gcp-1011340&utm_content=text-ad-none-any-DEV_c-CRE_574805387431-ADGP_Hybrid%20%7C%20BKWS%20-%20PHR%20%7C%20Txt%20~%20Compute%20~%20Compute%20Engine%23v1-KWID_43700069710114266-kwd-295775030776-userloc_1007469&utm_term=KW_google%20cloud%20computing-ST_google%20cloud%20computing-NET_g-PLAC_&gclid=CjwKCAiA9NGfBhBvEiwAq5vSy1FFvb2AB4aEfCXkYGN_3i7KRsIUBkpUEXmI2MkgnOoYbvkF7ftnshoC5YMQAvD_BwE&gclsrc=aw.ds
 
 
@@ -214,50 +246,82 @@ Lowering Resource Requirements:
 	linear discriminant analysis LDA - classification case
 	partial least squares PLS - regression case
 	principal component analysis PCA - unsupervised case variance
-        * https://arxiv.org/pdf/1404.1100.pdf
-	##http://alexhwilliams.info/itsneuronalblog/2016/03/27/pca/
+
+        https://arxiv.org/pdf/1404.1100.pdf
+
+	http://alexhwilliams.info/itsneuronalblog/2016/03/27/pca/
+
 	   other unsupervized dimnsionaity reduction technics:
 	   latent semantic indexing/analysis LSI/LSA - singular value decomposition SVD
 	     unlike PCA the SVD can be used for nonsquare and sparce matrices 
 	   independent component analysis ICA
-	   * https://arxiv.org/pdf/1404.2986.pdf
+
+	   https://arxiv.org/pdf/1404.2986.pdf
+
 	     if PCA removes correlations ICA removes correlations and higher order dependence
-	     and for ICA all components are equally important unlike PCA	
+	     and for ICA all components are equally important unlike PCA
+
 	matrix factorization: non-negative matrix factorization NMF
 	     unlike PCA NMF is interpretable but operates only on non-negative data
+
 	latent methods: latent dirichlet allocation LDA
 
    quantization >>
+
 	about quantization:          https://arxiv.org/abs/1712.05877
+
 	post training quantisation:  https://medium.com/tensorflow/introducing-the-model-optimization-toolkit-for-tensorflow-254aca1ba0a3
+
 	quantization aware training: https://blog.tensorflow.org/2020/04/quantization-aware-training-with-tensorflow-model-optimization-toolkit.html
 
    pruning >>
+
 	http://yann.lecun.com/exdb/publis/pdf/lecun-90b.pdf
+
 	https://arxiv.org/abs/1803.03635
 
 
 
 
 Distributed Training:
+
    data parallelism >>
+
 	synchronous training: all-reduce architecture
+
 	asynchronous training: parameter server atchitecture(slower convergence,low accuracy)
+
    	tolls: e.g. tensorflow.distribute.Strategy
+
 	       https://www.tensorflow.org/guide/distributed_training
+
    	strategies: e.g. 
+
 		one device        - just for testing basically, no distribution
+
 		mirrored          - one machine multiple gpu-s
+
 		parameter server  - multiple machines (so asinchronous by nature)
+
 		etc . . .
+
 		fault tollerance: if one worker fails others wait until it restarts
+
    model parallelism >>
+
       grouped model layers in similar model complexity chunks are distributed across workers
       downside is sequential nature of training.
+
    pipeline parralelism >> 
+
       uses all togehted data and model paralelism and more +
+
       gradient accumulation: from mini to micro batches-accumulated gradients are used for backprop
+
       tools: 
+
 	PipeDream -- https://arxiv.org/abs/1806.03377, https://www.microsoft.com/en-us/research/blog/pipedream-a-more-effective-way-to-train-deep-neural-networks-using-pipeline-parallelism/
+
 	GPipe     -- https://arxiv.org/abs/1811.06965 , https://ai.googleblog.com/2019/03/introducing-gpipe-open-source-library.html
+    
    Hands-on exercise: https://www.cloudskillsboost.google/focuses/17646?parent=catalog
