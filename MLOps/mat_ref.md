@@ -25,7 +25,7 @@
 
 ## Handouts
 
-PART 1 - General:
+#### PART 1 - General:
 
 concept and data drift - inflation-->houseprice and large house-->houseprice example
 (there is also covariate shift/notdrift when x and y distributions change but x-->y mapping does not)
@@ -45,22 +45,24 @@ PART 2 - Data Handling:
 
 General and Data Collection and papers:
 
-	https://cd.foundation/blog/2020/02/11/announcing-the-cd-foundation-mlops-sig/
+    -https://cd.foundation/blog/2020/02/11/announcing-the-cd-foundation-mlops-sig/
 
-	https://karpathy.medium.com/software-2-0-a64152b37c35
+    -https://karpathy.medium.com/software-2-0-a64152b37c35
 
-	https://pair.withgoogle.com/chapter/data-collection/
+    -https://pair.withgoogle.com/chapter/data-collection/
 
-	https://developers.google.com/machine-learning/guides/rules-of-ml
+    -https://developers.google.com/machine-learning/guides/rules-of-ml
 
-	https://ai.googleblog.com/2018/09/introducing-inclusive-images-competition.html
+    -https://ai.googleblog.com/2018/09/introducing-inclusive-images-competition.html
 
-	https://papers.nips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf
+    -https://papers.nips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf
 
-	https://arxiv.org/abs/2010.02013
+    -https://arxiv.org/abs/2010.02013
 
 process feedback labling:
+
 (1.) automatic labling of live data - apply label based on prediction
+
 (2.) label can be created based on some logs we deigned with logging tools, like:
 
 	https://www.elastic.co/logstash/ 
@@ -323,5 +325,5 @@ Distributed Training:
 	PipeDream -- https://arxiv.org/abs/1806.03377, https://www.microsoft.com/en-us/research/blog/pipedream-a-more-effective-way-to-train-deep-neural-networks-using-pipeline-parallelism/
 
 	GPipe     -- https://arxiv.org/abs/1811.06965 , https://ai.googleblog.com/2019/03/introducing-gpipe-open-source-library.html
-    
+
    Hands-on exercise: https://www.cloudskillsboost.google/focuses/17646?parent=catalog
