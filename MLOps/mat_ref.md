@@ -12,7 +12,7 @@
 
 - https://www.youtube.com/watch?v=LdLFJUlPa4Y&list=PLBoQnSflObckkY7EzV02jifGKgwtBdBW8
 
-<br>
+
 
 ## Hands-on Labs:
 
@@ -22,13 +22,12 @@
 
 - check other labs: [here](https://cloud.google.com/compute/docs?utm_source=google&utm_medium=cpc&utm_campaign=emea-none-all-en-dr-sitelink-all-all-trial-p-gcp-1011340&utm_content=text-ad-none-any-DEV_c-CRE_574805387431-ADGP_Hybrid%20%7C%20BKWS%20-%20PHR%20%7C%20Txt%20~%20Compute%20~%20Compute%20Engine%23v1-KWID_43700069710114266-kwd-295775030776-userloc_1007469&utm_term=KW_google%20cloud%20computing-ST_google%20cloud%20computing-NET_g-PLAC_&gclid=CjwKCAiA9NGfBhBvEiwAq5vSy1FFvb2AB4aEfCXkYGN_3i7KRsIUBkpUEXmI2MkgnOoYbvkF7ftnshoC5YMQAvD_BwE&gclsrc=aw.ds)
 
-<br>
+
 
 ## Handouts
 
 **PART 1 - General:**
 
-<br>
 
 concept and data drift - inflation-->houseprice and large house-->houseprice example
 (there is also covariate shift/notdrift when x and y distributions change but x-->y mapping does not)
@@ -46,7 +45,6 @@ Good Data: is big enough; covers important inputs; is labeled consistently; conc
 
 **PART 2 - Data Handling:**
 
-<br>
 
 General and Data Collection and papers:
 
@@ -310,7 +308,6 @@ Advanced Labeling:
 
 **PART 3 - Model Handling:**
 
-<br>
 
 AutoML:
 
