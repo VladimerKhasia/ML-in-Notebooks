@@ -45,19 +45,19 @@ Good Data: is big enough; covers important inputs; is labeled consistently; conc
 
 General and Data Collection and papers:
 
--https://cd.foundation/blog/2020/02/11/announcing-the-cd-foundation-mlops-sig/
+- https://cd.foundation/blog/2020/02/11/announcing-the-cd-foundation-mlops-sig/
 
--https://karpathy.medium.com/software-2-0-a64152b37c35
+- https://karpathy.medium.com/software-2-0-a64152b37c35
 
--https://pair.withgoogle.com/chapter/data-collection/
+- https://pair.withgoogle.com/chapter/data-collection/
 
--https://developers.google.com/machine-learning/guides/rules-of-ml
+- https://developers.google.com/machine-learning/guides/rules-of-ml
 
--https://ai.googleblog.com/2018/09/introducing-inclusive-images-competition.html
+- https://ai.googleblog.com/2018/09/introducing-inclusive-images-competition.html
 
--https://papers.nips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf
+- https://papers.nips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf
 
--https://arxiv.org/abs/2010.02013
+- https://arxiv.org/abs/2010.02013
 
 process feedback labling:
 
@@ -65,11 +65,11 @@ process feedback labling:
 
 (2.) label can be created based on some logs we deigned with logging tools, like:
 
-	https://www.elastic.co/logstash/ 
+- https://www.elastic.co/logstash/ 
 
-	https://www.fluentd.org/
+- https://www.fluentd.org/
 
-	for cloud:  https://cloud.google.com/logging, aws elasticsearch, azure monitor
+- for cloud:  https://cloud.google.com/logging, aws elasticsearch, azure monitor
 
 
 Tensorflow: exampleGen splits data --> statisticGen produces mean std etc.--> schemaGen checks data types
@@ -341,9 +341,9 @@ Lowering Resource Requirements:
 
 	principal component analysis PCA - unsupervised case variance
 
-        https://arxiv.org/pdf/1404.1100.pdf
+      https://arxiv.org/pdf/1404.1100.pdf
 
-	http://alexhwilliams.info/itsneuronalblog/2016/03/27/pca/
+	  http://alexhwilliams.info/itsneuronalblog/2016/03/27/pca/
 
 	   other unsupervized dimnsionaity reduction technics:
 
@@ -409,7 +409,7 @@ Distributed Training:
    model parallelism >>
 
       grouped model layers in similar model complexity chunks are distributed across workers
-      
+
       downside is sequential nature of training.
 
    pipeline parralelism >> 
