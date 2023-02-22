@@ -324,7 +324,7 @@ AutoML:
 
         google cloud automl: https://cloud.google.com/automl
 
-    4. some hands-on labs: 
+   4. some hands-on labs: 
 
 		https://www.cloudskillsboost.google/focuses/2794?parent=catalog
 
@@ -333,7 +333,7 @@ AutoML:
 
 Lowering Resource Requirements:
 
-   projection subspace examples >>
+   1. projection subspace examples >>
 
 	linear discriminant analysis LDA - classification case
 
@@ -365,7 +365,7 @@ Lowering Resource Requirements:
 
 	latent methods: latent dirichlet allocation LDA
 
-   quantization >>
+   2. quantization >>
 
 	about quantization:          https://arxiv.org/abs/1712.05877
 
@@ -373,7 +373,7 @@ Lowering Resource Requirements:
 
 	quantization aware training: https://blog.tensorflow.org/2020/04/quantization-aware-training-with-tensorflow-model-optimization-toolkit.html
 
-   pruning >>
+   3. pruning >>
 
 	http://yann.lecun.com/exdb/publis/pdf/lecun-90b.pdf
 
