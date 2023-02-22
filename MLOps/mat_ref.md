@@ -25,7 +25,7 @@
 
 ## Handouts
 
-#### PART 1 - General:
+**PART 1 - General:**
 
 concept and data drift - inflation-->houseprice and large house-->houseprice example
 (there is also covariate shift/notdrift when x and y distributions change but x-->y mapping does not)
