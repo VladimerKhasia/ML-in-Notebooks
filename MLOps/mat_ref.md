@@ -28,8 +28,10 @@
 
 **PART 1 - General:**
 
+concept and data drift 
 
-concept and data drift - inflation-->houseprice and large house-->houseprice example
+houseprice example: inflation caused houseprice change (concept) vs only large houses are built (data)
+
 (there is also covariate shift/notdrift when x and y distributions change but x-->y mapping does not)
 
 - track software-->memory,compute,latency,throughput, server load
@@ -44,7 +46,6 @@ Good Data: is big enough; covers important inputs; is labeled consistently; conc
 <br>
 
 **PART 2 - Data Handling:**
-
 
 General and Data Collection and papers:
 
