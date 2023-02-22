@@ -20,6 +20,8 @@
 
 - distributed multi-worker tensorflow training on kubernetes: https://www.cloudskillsboost.google/focuses/17646?parent=catalog
 
+- machine learning with tensorflow in vertex AI: https://www.cloudskillsboost.google/focuses/3391?parent=catalog 
+
 - check other labs: [here](https://cloud.google.com/compute/docs?utm_source=google&utm_medium=cpc&utm_campaign=emea-none-all-en-dr-sitelink-all-all-trial-p-gcp-1011340&utm_content=text-ad-none-any-DEV_c-CRE_574805387431-ADGP_Hybrid%20%7C%20BKWS%20-%20PHR%20%7C%20Txt%20~%20Compute%20~%20Compute%20Engine%23v1-KWID_43700069710114266-kwd-295775030776-userloc_1007469&utm_term=KW_google%20cloud%20computing-ST_google%20cloud%20computing-NET_g-PLAC_&gclid=CjwKCAiA9NGfBhBvEiwAq5vSy1FFvb2AB4aEfCXkYGN_3i7KRsIUBkpUEXmI2MkgnOoYbvkF7ftnshoC5YMQAvD_BwE&gclsrc=aw.ds)
 
 
