@@ -213,11 +213,11 @@ Schema includes: feature names, types, required vs optional, one vs multyple val
 
 Features: are also precomputed time to time and stored, used for inference.
 
-	https://cloud.google.com/blog/products/ai-machine-learning/introducing-feast-an-open-source-feature-store-for-machine-learning
+- https://cloud.google.com/blog/products/ai-machine-learning/introducing-feast-an-open-source-feature-store-for-machine-learning
 
-	https://github.com/feast-dev/feast
+- https://github.com/feast-dev/feast
 
-	https://www.gojek.io/blog/feast-bridging-ml-models-and-data
+- https://www.gojek.io/blog/feast-bridging-ml-models-and-data
 
 Data warehouse: 
 
