@@ -380,48 +380,48 @@ Lowering Resource Requirements:
         https://arxiv.org/abs/1803.03635
 
 
-
+<br>
 
 Distributed Training:
 
-   data parallelism >>
+   1. data parallelism >>
 
-	synchronous training: all-reduce architecture
+        synchronous training: all-reduce architecture
 
-	asynchronous training: parameter server atchitecture(slower convergence,low accuracy)
+        asynchronous training: parameter server atchitecture(slower convergence,low accuracy)
 
-   	tolls: e.g. tensorflow.distribute.Strategy
+        tolls: e.g. tensorflow.distribute.Strategy
 
-	       https://www.tensorflow.org/guide/distributed_training
+            https://www.tensorflow.org/guide/distributed_training
 
-   	strategies: e.g. 
+        strategies: e.g. 
 
-		one device        - just for testing basically, no distribution
+            one device        - just for testing basically, no distribution
 
-		mirrored          - one machine multiple gpu-s
+            mirrored          - one machine multiple gpu-s
 
-		parameter server  - multiple machines (so asinchronous by nature)
+            parameter server  - multiple machines (so asinchronous by nature)
 
-		etc . . .
+            etc . . .
 
-		fault tollerance: if one worker fails others wait until it restarts
+            fault tollerance: if one worker fails others wait until it restarts
 
-   model parallelism >>
+   2. model parallelism >>
 
-      grouped model layers in similar model complexity chunks are distributed across workers
+        grouped model layers in similar model complexity chunks are distributed across workers
 
-      downside is sequential nature of training.
+        downside is sequential nature of training.
 
-   pipeline parralelism >> 
+   3. pipeline parralelism >> 
 
-      uses all togehted data and model paralelism and more +
+        uses all togehted data and model paralelism and more +
 
-      gradient accumulation: from mini to micro batches-accumulated gradients are used for backprop
+        gradient accumulation: from mini to micro batches-accumulated gradients are used for backprop
 
-      tools: 
+        tools: 
 
-	PipeDream -- https://arxiv.org/abs/1806.03377, https://www.microsoft.com/en-us/research/blog/pipedream-a-more-effective-way-to-train-deep-neural-networks-using-pipeline-parallelism/
+        PipeDream -- https://arxiv.org/abs/1806.03377, https://www.microsoft.com/en-us/research/blog/pipedream-a-more-effective-way-to-train-deep-neural-networks-using-pipeline-parallelism/
 
-	GPipe     -- https://arxiv.org/abs/1811.06965 , https://ai.googleblog.com/2019/03/introducing-gpipe-open-source-library.html
+        GPipe     -- https://arxiv.org/abs/1811.06965 , https://ai.googleblog.com/2019/03/introducing-gpipe-open-source-library.html
 
-   Hands-on exercise: https://www.cloudskillsboost.google/focuses/17646?parent=catalog
+   4. Hands-on exercise: https://www.cloudskillsboost.google/focuses/17646?parent=catalog
