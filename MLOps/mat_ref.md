@@ -457,8 +457,8 @@ Knowledge Distillation:
         
    2. putting more knowledge into teacher using bigger noisy/moregeneralizable student in loop
 
-	https://arxiv.org/abs/1911.04252
-   
-	[for myself: intuition is larger noisy student acts like exploration in RL,
-	it learns something more and becomes the teacher to pass acquired knowledge.
-	starting teacher "explotation" becomes the student adopting the knowledge like value iteration]
+	   https://arxiv.org/abs/1911.04252
+
+      [for myself: intuition is larger noisy student acts like exploration in RL,
+      it learns something more and becomes the teacher to pass acquired knowledge.
+      starting teacher "explotation" becomes the student adopting the knowledge like value iteration]
