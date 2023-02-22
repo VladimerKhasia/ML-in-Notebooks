@@ -432,3 +432,33 @@ Distributed Training:
         GPipe     -- https://arxiv.org/abs/1811.06965 , https://ai.googleblog.com/2019/03/introducing-gpipe-open-source-library.html
 
    4. Hands-on exercise: https://www.cloudskillsboost.google/focuses/17646?parent=catalog
+
+<br>
+
+Knowledge Distillation:
+
+   1. for downsizing model with no/least performance loss:
+
+      - smaler student model uses bigger teachers soft logits as targets (mostly KL divergence)
+
+        and actual hard labels as well to calculate its own loss. both parts of loss
+
+        (divergence from teacher and from actual labels) are weighet by 1-a and a
+        
+        https://arxiv.org/pdf/1503.02531.pdf
+
+        [for myself: for the intuition why it works remember proximal policy optimization but not because of KL]
+
+      - we can combine: pretraining with multytask teacher, then training by multiple different 
+
+        architecture teachers, then assambly all students together. (two-stage distillation)
+
+	     https://arxiv.org/pdf/1910.08381.pdf 
+        
+   2. putting more knowledge into teacher using bigger noisy/moregeneralizable student in loop
+
+	https://arxiv.org/abs/1911.04252
+   
+	[for myself: intuition is larger noisy student acts like exploration in RL,
+	it learns something more and becomes the teacher to pass acquired knowledge.
+	starting teacher "explotation" becomes the student adopting the knowledge like value iteration]
