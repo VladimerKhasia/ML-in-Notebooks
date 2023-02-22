@@ -302,29 +302,29 @@ Advanced Labeling:
 
 AutoML:
 
-   Neural Architecture Search Strategies >>
+   1. Neural Architecture Search Strategies >>
 
-	https://arxiv.org/pdf/1808.05377.pdf
+        https://arxiv.org/pdf/1808.05377.pdf
 
-	https://distill.pub/2020/bayesian-optimization/
+        https://distill.pub/2020/bayesian-optimization/
 
-	https://arxiv.org/pdf/1611.01578.pdf
+        https://arxiv.org/pdf/1611.01578.pdf
 
-	https://arxiv.org/pdf/1712.00559.pdf
+        https://arxiv.org/pdf/1712.00559.pdf
 
-	https://arxiv.org/abs/1603.01670
+        https://arxiv.org/abs/1603.01670
 
-   Tool e.g. keras-tuner
+   2. Tool e.g. keras-tuner
 
-   Tools on cloud:
+   3. Tools on cloud:
 
-	amazon sagemaker autopilot: https://aws.amazon.com/sagemaker/autopilot/?sagemaker-data-wrangler-whats-new.sort-by=item.additionalFields.postDateTime&sagemaker-data-wrangler-whats-new.sort-order=desc
+        amazon sagemaker autopilot: https://aws.amazon.com/sagemaker/autopilot/?sagemaker-data-wrangler-whats-new.sort-by=item.additionalFields.postDateTime&sagemaker-data-wrangler-whats-new.sort-order=desc
 
-	microsoft azure automated machine learning:  https://azure.microsoft.com/en-in/products/machine-learning/automatedml/ 
+        microsoft azure automated machine learning:  https://azure.microsoft.com/en-in/products/machine-learning/automatedml/ 
 
-	google cloud automl: https://cloud.google.com/automl
+        google cloud automl: https://cloud.google.com/automl
 
-        some hands-on labs: 
+    4. some hands-on labs: 
 
 		https://www.cloudskillsboost.google/focuses/2794?parent=catalog
 
