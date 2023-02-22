@@ -399,7 +399,7 @@ Distributed Training:
 
         tolls: e.g. tensorflow.distribute.Strategy
 
-            https://www.tensorflow.org/guide/distributed_training
+        https://www.tensorflow.org/guide/distributed_training
 
         strategies: e.g. 
 
@@ -440,9 +440,7 @@ Knowledge Distillation:
    1. for downsizing model with no/least performance loss:
 
       - smaler student model uses bigger teachers soft logits as targets (mostly KL divergence)
-
         and actual hard labels as well to calculate its own loss. both parts of loss
-
         (divergence from teacher and from actual labels) are weighet by 1-a and a
         
         https://arxiv.org/pdf/1503.02531.pdf
@@ -450,7 +448,6 @@ Knowledge Distillation:
         [for myself: for the intuition why it works remember proximal policy optimization but not because of KL]
 
       - we can combine: pretraining with multytask teacher, then training by multiple different 
-
         architecture teachers, then assambly all students together. (two-stage distillation)
 
 	     https://arxiv.org/pdf/1910.08381.pdf 
