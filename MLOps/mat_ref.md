@@ -335,49 +335,49 @@ Lowering Resource Requirements:
 
    1. projection subspace examples >>
 
-	linear discriminant analysis LDA - classification case
+        linear discriminant analysis LDA - classification case
 
-	partial least squares PLS - regression case
+        partial least squares PLS - regression case
 
-	principal component analysis PCA - unsupervised case variance
+        principal component analysis PCA - unsupervised case variance
 
-      https://arxiv.org/pdf/1404.1100.pdf
+        https://arxiv.org/pdf/1404.1100.pdf
 
-	  http://alexhwilliams.info/itsneuronalblog/2016/03/27/pca/
+        http://alexhwilliams.info/itsneuronalblog/2016/03/27/pca/
 
-	   other unsupervized dimnsionaity reduction technics:
+        other unsupervized dimnsionaity reduction technics:
 
-	   latent semantic indexing/analysis LSI/LSA - singular value decomposition SVD
+        latent semantic indexing/analysis LSI/LSA - singular value decomposition SVD
 
-	     unlike PCA the SVD can be used for nonsquare and sparce matrices 
+            unlike PCA the SVD can be used for nonsquare and sparce matrices 
 
-	   independent component analysis ICA
+        independent component analysis ICA
 
-	   https://arxiv.org/pdf/1404.2986.pdf
+        https://arxiv.org/pdf/1404.2986.pdf
 
-	     if PCA removes correlations ICA removes correlations and higher order dependence
+            if PCA removes correlations ICA removes correlations and higher order dependence
 
-	     and for ICA all components are equally important unlike PCA
+            and for ICA all components are equally important unlike PCA
 
-	matrix factorization: non-negative matrix factorization NMF
-    
-	     unlike PCA NMF is interpretable but operates only on non-negative data
+        matrix factorization: non-negative matrix factorization NMF
+        
+            unlike PCA NMF is interpretable but operates only on non-negative data
 
-	latent methods: latent dirichlet allocation LDA
+        latent methods: latent dirichlet allocation LDA
 
    2. quantization >>
 
-	about quantization:          https://arxiv.org/abs/1712.05877
+        about quantization:          https://arxiv.org/abs/1712.05877
 
-	post training quantisation:  https://medium.com/tensorflow/introducing-the-model-optimization-toolkit-for-tensorflow-254aca1ba0a3
+        post training quantisation:  https://medium.com/tensorflow/introducing-the-model-optimization-toolkit-for-tensorflow-254aca1ba0a3
 
-	quantization aware training: https://blog.tensorflow.org/2020/04/quantization-aware-training-with-tensorflow-model-optimization-toolkit.html
+        quantization aware training: https://blog.tensorflow.org/2020/04/quantization-aware-training-with-tensorflow-model-optimization-toolkit.html
 
    3. pruning >>
 
-	http://yann.lecun.com/exdb/publis/pdf/lecun-90b.pdf
+        http://yann.lecun.com/exdb/publis/pdf/lecun-90b.pdf
 
-	https://arxiv.org/abs/1803.03635
+        https://arxiv.org/abs/1803.03635
 
 
 
