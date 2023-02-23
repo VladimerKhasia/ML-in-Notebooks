@@ -578,26 +578,26 @@ Continuous Evaluation and Monitoring:
 
    2. where can those problems be caught and so what should we monitor:
 
-	- covariate shift is detectable by comparing old and new data itself
+      - covariate shift is detectable by comparing old and new data itself
 
-	- data drift/shift(prior probability shift) by comparing old and new predictions
+      - data drift/shift(prior probability shift) by comparing old and new predictions
 
-	- concept drift only after labling new sample of input data, which is somewhat deleyed process
+      - concept drift only after labling new sample of input data, which is somewhat deleyed process
 
    3. what are supervised and unsupervised methods of monitoring:
 
-	- supervised: statistical process control, sequencial analysis, error distribution monitoring
+      - supervised: statistical process control, sequencial analysis, error distribution monitoring
 
-	- unsupervised: 
+      - unsupervised: 
 
-		clustering/novelty detection (algorithms: OLINDDA, MINAS, ECSMiner, GC3)
+         clustering/novelty detection (algorithms: OLINDDA, MINAS, ECSMiner, GC3)
 
-		feature distribution monitoring
+         feature distribution monitoring
 
-		model-dependent monitoring (algorithms MD3 etc.)
+         model-dependent monitoring (algorithms MD3 etc.)
 
    4. as via monitoring we catch the problem early we retrain the model before problem affects us
-   
+
    5. tools and resources:
 
       https://arxiv.org/pdf/1704.00023.pdf
