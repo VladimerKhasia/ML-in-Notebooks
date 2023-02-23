@@ -485,76 +485,46 @@ Tensorflow Model Analysis (TFMA):
 
    Model Debugging:
    - ojectives: model decay(time,distributionShift), biases(e.g.discrimination), privacy, security
-
    - technics: benchmarking, sensitivity analysis, residual analysis
-
    1. benchmarking: where does your model perform worse htan simple benchmark model and why
-
    2. sensitivity analysis: 
+	*Main Idea* of sensitivity is how the perturbation/change in feature(s) changes model prediction
 
-	 l.*Main Idea* of sensitivity is how the perturbation/change in feature(s) changes model prediction
-
-	 II.*identify* --> attacs that our model robustnes is sensitive to, can be affected by >>
-
+	*identify* --> attacs that our model robustnes is sensitive to, can be affected by >>
 	   - general tool for sensitivity identification: https://pair-code.github.io/what-if-tool/
-
 	   - methods for identifying sensitivity against attacs:
-
 		a. random attacks - just provide the model with high volume of random input data
-
 		b. partial dependence plots - visualizes marginal effect of one/more features on model results
-
 		   tools for this: https://github.com/SauceCat/PDPbox and https://github.com/AustinRochford/PyCEbox
-
 		c. adversarial attacs - carefuly designed changes/distortion (e.g. in features)
-
-         https://arxiv.org/abs/1412.6572
-
+                   https://arxiv.org/abs/1412.6572
 		   can cause informational and behavioral harms.
-
 		   *informational harms*: recreate persons data, whole model data, or model itself
-
 		   correspondingly called membership inference, model inversion, model extraction.
-
 		   *behavioral harms*: evasion(causes missclasification), poisoning(more general term)
-
 		   tool for measuring/benchmarking sensitivity: https://github.com/cleverhans-lab/cleverhans
-
-	 III. *remediate the model* --> 
-
+	*remediate the model* --> 
 	   - by adversarial training with designed adversarial attack data.
-
 	   - tool and resource: https://github.com/bethgelab/foolbox
-
 	   - one good method: deffnsive distillation
-
-		  like knowledge distillation but same model architecture is used 
-
-		  for both student and teacher https://arxiv.org/abs/1511.04508
+			      like knowledge distillation but same model architecture is used 
+			      for both student and teacher https://arxiv.org/abs/1511.04508
 	
    3. residual analysis: 
-
 	residual in regression - difference between prediction and ground truth
-
 	residual distribution should be random
-
 	if residual distribution correlates with feature that was not used in the feature vector that feature should be included
-
 	if adjacent residuals selfcorelate - one predicts next(just sign correlations also matter)
-
 	*Durbin-Watson test* is often used for detecting the autocorrelation.
 
  
    4. general model remediation: 
-
       on data and model level
-
       data augmentation via generative technics, interpretable technics(data,model insights) or just noise addition.
-
       model editing(when model understanding enables succesfull manual tweeks), model assertions(age is allways positive)
-
       tools: https://www.tensorflow.org/responsible_ai/model_remediation 
 
    5. fairness:
+
 
    
