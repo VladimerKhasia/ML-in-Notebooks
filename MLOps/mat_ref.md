@@ -508,7 +508,7 @@ Tensorflow Model Analysis (TFMA):
             tools for this: https://github.com/SauceCat/PDPbox and https://github.com/AustinRochford/PyCEbox
 
          c. adversarial attacs - carefuly designed changes/distortion (e.g. in features)
-                                 https://arxiv.org/abs/1412.6572
+            https://arxiv.org/abs/1412.6572
 
             can cause informational and behavioral harms:
 
@@ -528,21 +528,21 @@ Tensorflow Model Analysis (TFMA):
 
          - one good method: deffnsive distillation
 
-                  like knowledge distillation but same model architecture is used 
+            like knowledge distillation but same model architecture is used 
 
-                  for both student and teacher https://arxiv.org/abs/1511.04508
+            for both student and teacher https://arxiv.org/abs/1511.04508
 	
    3. residual analysis: 
 
-	residual in regression - difference between prediction and ground truth
+      residual in regression - difference between prediction and ground truth
 
-	residual distribution should be random
+      residual distribution should be random
 
-	if residual distribution correlates with feature that was not used in the feature vector that feature should be included
+      if residual distribution correlates with feature that was not used in the feature vector that feature should be included
 
-	if adjacent residuals selfcorelate - one predicts next(just sign correlations also matter)
+      if adjacent residuals selfcorelate - one predicts next(just sign correlations also matter)
 
-	*Durbin-Watson test* is often used for detecting the autocorrelation.
+      *Durbin-Watson test* is often used for detecting the autocorrelation.
 
  
    4. general model remediation: 
