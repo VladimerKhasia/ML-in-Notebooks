@@ -461,3 +461,21 @@ Knowledge Distillation:
       [for myself: intuition is larger noisy student acts like exploration in RL,
       it learns something more and becomes the teacher to pass acquired knowledge.
       starting teacher "explotation" becomes the student adopting the knowledge like value iteration]
+
+<br>
+
+Tensorflow Model Analysis (TFMA):
+
+   resonates with error analysis, because beside overall model evaluation it allows 
+   us to inspect the performance on the parts of data. (TFMA uses apache beam)
+
+   1. read inputs   --> converts any format to dictionary with dtype is tfma.extracts
+   2. extraxtors --> input,slice key,custom and predict extractors do prediction on slices   
+   3. evaluators --> MetricsandPlotsEvaluator, AnalysisEvaluator, CustomEvaluator
+   4. write results --> just writes results to disk
+
+   - in case of using outside TFX create input config file via tfma.EvalConfig(...) manually
+
+   - https://blog.tensorflow.org/2018/03/introducing-tensorflow-model-analysis.html
+
+   - https://www.tensorflow.org/tfx/model_analysis/architecture
