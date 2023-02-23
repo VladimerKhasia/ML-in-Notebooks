@@ -505,20 +505,19 @@ Tensorflow Model Analysis (TFMA):
 
          b. partial dependence plots - visualizes marginal effect of one/more features on model results
 
-            tools for this: https://github.com/SauceCat/PDPbox and https://github.com/AustinRochford/PyCEbox
+         tools for this: https://github.com/SauceCat/PDPbox and https://github.com/AustinRochford/PyCEbox
 
-         c. adversarial attacs - carefuly designed changes/distortion (e.g. in features)
-            https://arxiv.org/abs/1412.6572
+         c. adversarial attacs - carefuly designed changes/distortion (e.g. in features) https://arxiv.org/abs/1412.6572
 
-            can cause informational and behavioral harms:
+         can cause informational and behavioral harms:
 
-            *informational harms*: recreate persons data, whole model data, or model itself
+         *informational harms*: recreate persons data, whole model data, or model itself
 
-            correspondingly called membership inference, model inversion, model extraction.
+         correspondingly called membership inference, model inversion, model extraction.
 
-            *behavioral harms*: evasion(causes missclasification), poisoning(more general term)
+         *behavioral harms*: evasion(causes missclasification), poisoning(more general term)
 
-            tool for measuring/benchmarking sensitivity: https://github.com/cleverhans-lab/cleverhans
+         tool for measuring/benchmarking sensitivity: https://github.com/cleverhans-lab/cleverhans
 
       *remediate the model* --> 
 
