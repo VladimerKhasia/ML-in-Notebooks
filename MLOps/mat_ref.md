@@ -588,17 +588,17 @@ Continuous Evaluation and Monitoring:
    4. as via monitoring we catch the problem early we retrain the model before problem affects us
    5. tools and resources:
 
-	https://arxiv.org/pdf/1704.00023.pdf
+      https://arxiv.org/pdf/1704.00023.pdf
 
-	https://www.infoq.com/presentations/instrumentation-observability-monitoring-ml/
+      https://www.infoq.com/presentations/instrumentation-observability-monitoring-ml/
 
-	https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/
+      https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/
 
-	google primarely foluses on concept drift: https://cloud.google.com/ai-platform/prediction/docs/continuous-evaluation
+      google primarely foluses on concept drift: https://cloud.google.com/ai-platform/prediction/docs/continuous-evaluation
 
-	amazon focuses on concept drift: https://aws.amazon.com/sagemaker/model-monitor/
+      amazon focuses on concept drift: https://aws.amazon.com/sagemaker/model-monitor/
 
-	microsoft focuses on data drift: https://learn.microsoft.com/en-us/azure/machine-learning/v1/how-to-monitor-datasets?tabs=python
+      microsoft focuses on data drift: https://learn.microsoft.com/en-us/azure/machine-learning/v1/how-to-monitor-datasets?tabs=python
 
 
 
