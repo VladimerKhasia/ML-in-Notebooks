@@ -468,6 +468,7 @@ Tensorflow Model Analysis (TFMA):
 
    resonates with error analysis, because beside overall model evaluation it allows 
    us to inspect the performance on the parts of data. (TFMA uses apache beam)
+   TFMA consists of >>
 
    1. read inputs   --> converts any format to dictionary with dtype is tfma.extracts
    2. extraxtors --> input,slice key,custom and predict extractors do prediction on slices   
