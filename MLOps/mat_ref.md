@@ -492,9 +492,9 @@ Tensorflow Model Analysis (TFMA):
 
    2. sensitivity analysis: 
 
-	*Main Idea* of sensitivity is how the perturbation/change in feature(s) changes model prediction
+	 l.*Main Idea* of sensitivity is how the perturbation/change in feature(s) changes model prediction
 
-	*identify* --> attacs that our model robustnes is sensitive to, can be affected by >>
+	 II.*identify* --> attacs that our model robustnes is sensitive to, can be affected by >>
 
 	   - general tool for sensitivity identification: https://pair-code.github.io/what-if-tool/
 
@@ -508,7 +508,7 @@ Tensorflow Model Analysis (TFMA):
 
 		c. adversarial attacs - carefuly designed changes/distortion (e.g. in features)
 
-                   https://arxiv.org/abs/1412.6572
+         https://arxiv.org/abs/1412.6572
 
 		   can cause informational and behavioral harms.
 
@@ -520,7 +520,7 @@ Tensorflow Model Analysis (TFMA):
 
 		   tool for measuring/benchmarking sensitivity: https://github.com/cleverhans-lab/cleverhans
 
-	*remediate the model* --> 
+	 III. *remediate the model* --> 
 
 	   - by adversarial training with designed adversarial attack data.
 
@@ -528,9 +528,9 @@ Tensorflow Model Analysis (TFMA):
 
 	   - one good method: deffnsive distillation
 
-			      like knowledge distillation but same model architecture is used 
+		  like knowledge distillation but same model architecture is used 
 
-			      for both student and teacher https://arxiv.org/abs/1511.04508
+		  for both student and teacher https://arxiv.org/abs/1511.04508
 	
    3. residual analysis: 
 
@@ -552,7 +552,7 @@ Tensorflow Model Analysis (TFMA):
       data augmentation via generative technics, interpretable technics(data,model insights) or just noise addition.
 
       model editing(when model understanding enables succesfull manual tweeks), model assertions(age is allways positive)
-      
+
       tools: https://www.tensorflow.org/responsible_ai/model_remediation 
 
    5. fairness:
