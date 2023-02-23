@@ -555,7 +555,52 @@ Tensorflow Model Analysis (TFMA):
 
       tools: https://www.tensorflow.org/responsible_ai/model_remediation 
 
-   5. fairness:
+   5. fairness:  tools and resources
+
+      https://arxiv.org/pdf/1904.13341.pdf
+
+      https://www.tensorflow.org/responsible_ai/fairness_indicators/guide
+
+      https://www.tensorflow.org/responsible_ai/model_remediation
+
+      https://github.com/cosmicBboy/themis-ml
+
+      https://modelcards.withgoogle.com/about
+
+      http://aif360.mybluemix.net/
+
+ 
+<br>
+
+Continuous Evaluation and Monitoring:
+
+   1. problem is concept drift, data drift/shift, covariate shift
+   2. where can those problems be caught and so what should we monitor:
+	- covariate shift is detectable by comparing old and new data itself
+	- data drift/shift(prior probability shift) by comparing old and new predictions
+	- concept drift only after labling new sample of input data, which is somewhat deleyed process
+   3. what are supervised and unsupervised methods of monitoring:
+	- supervised: statistical process control, sequencial analysis, error distribution monitoring
+	- unsupervised: 
+		clustering/novelty detection (algorithms: OLINDDA, MINAS, ECSMiner, GC3)
+		feature distribution monitoring
+		model-dependent monitoring (algorithms MD3 etc.)
+   4. as via monitoring we catch the problem early we retrain the model before problem affects us
+   5. tools and resources:
+
+	https://arxiv.org/pdf/1704.00023.pdf
+
+	https://www.infoq.com/presentations/instrumentation-observability-monitoring-ml/
+
+	https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/
+
+	google primarely foluses on concept drift: https://cloud.google.com/ai-platform/prediction/docs/continuous-evaluation
+
+	amazon focuses on concept drift: https://aws.amazon.com/sagemaker/model-monitor/
+
+	microsoft focuses on data drift: https://learn.microsoft.com/en-us/azure/machine-learning/v1/how-to-monitor-datasets?tabs=python
+
+
 
 
    
