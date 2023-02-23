@@ -505,8 +505,7 @@ Tensorflow Model Analysis (TFMA):
 
             b. partial dependence plots - visualizes marginal effect of one/more features on model results
 
-            tools for this:  
-            https://github.com/SauceCat/PDPbox and https://github.com/AustinRochford/PyCEbox
+            tools for this: https://github.com/SauceCat/PDPbox and https://github.com/AustinRochford/PyCEbox
 
             c. adversarial attacs - carefuly designed changes/distortion (e.g. in features) https://arxiv.org/abs/1412.6572
 
