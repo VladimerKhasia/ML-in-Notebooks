@@ -651,6 +651,7 @@ Model Interpretability:
       testing with concept activation vectors - https://arxiv.org/pdf/1711.11279.pdf   
 
       more undestanding of explanations: 
+      
       https://proceedings.neurips.cc/paper/2017/file/8a20a8621978632d76c43dfd28b67767-Paper.pdf
 
       https://arxiv.org/abs/1905.04610
@@ -659,7 +660,7 @@ Model Interpretability:
 
       https://storage.googleapis.com/cloud-ai-whitepapers/AI%20Explainability%20Whitepaper.pdf
 
-      
+
 
 
    
