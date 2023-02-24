@@ -4,6 +4,8 @@
 
 - https://www.deeplearning.ai/courses/machine-learning-engineering-for-production-mlops/
 
+- https://github.com/https-deeplearning-ai/machine-learning-engineering-for-production-public
+
 - https://stanford-cs329s.github.io/syllabus.html
 
 - https://madewithml.com/
