@@ -608,7 +608,7 @@ Continuous Evaluation and Monitoring:
 
       https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/
 
-      google primarely foluses on concept drift: https://cloud.google.com/ai-platform/prediction/docs/continuous-evaluation
+      google primarely focuses on concept drift: https://cloud.google.com/ai-platform/prediction/docs/continuous-evaluation
 
       amazon focuses on concept drift: https://aws.amazon.com/sagemaker/model-monitor/
 
