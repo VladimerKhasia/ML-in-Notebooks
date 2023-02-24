@@ -24,6 +24,13 @@
 
 - machine learning with tensorflow in vertex AI: https://www.cloudskillsboost.google/focuses/3391?parent=catalog 
 
+- autoscaling tensorFlow model deployments with TF Serving and Kubernetes: https://www.cloudskillsboost.google/focuses/17649?parent=catalog
+
+- Implementing Canary Releases of TensorFlow Model Deployments with Kubernetes and Anthos Service Mesh:
+  https://www.cloudskillsboost.google/focuses/18471?parent=catalog 
+
+- Data Loss Prevention: Qwik Start - JSON: https://www.cloudskillsboost.google/focuses/600?parent=catalog
+
 - check other labs: [here](https://cloud.google.com/compute/docs?utm_source=google&utm_medium=cpc&utm_campaign=emea-none-all-en-dr-sitelink-all-all-trial-p-gcp-1011340&utm_content=text-ad-none-any-DEV_c-CRE_574805387431-ADGP_Hybrid%20%7C%20BKWS%20-%20PHR%20%7C%20Txt%20~%20Compute%20~%20Compute%20Engine%23v1-KWID_43700069710114266-kwd-295775030776-userloc_1007469&utm_term=KW_google%20cloud%20computing-ST_google%20cloud%20computing-NET_g-PLAC_&gclid=CjwKCAiA9NGfBhBvEiwAq5vSy1FFvb2AB4aEfCXkYGN_3i7KRsIUBkpUEXmI2MkgnOoYbvkF7ftnshoC5YMQAvD_BwE&gclsrc=aw.ds)
 
 
@@ -664,7 +671,210 @@ Model Interpretability:
 
 <br>
 
-**PART 4 - Serving and Management:**
+**PART 4 - Serving and Maintainance:**
 
 
-   
+0. PART 4 Resources:
+
+   model severs:
+
+   https://www.tensorflow.org/tfx/serving/architecture
+
+   https://github.com/pytorch/serve
+
+   https://www.kubeflow.org/docs/external-add-ons/serving/
+
+   https://developer.nvidia.com/nvidia-triton-inference-server
+
+   kubernetes and kubeflow:
+
+   https://kubernetes.io/docs/tutorials/kubernetes-basics/
+
+   https://www.youtube.com/watch?v=H06qrNmGqyE
+
+   https://www.kubeflow.org/docs/
+
+   https://www.youtube.com/watch?v=dC659IsHNyg&list=PLIivdWyY5sqLS4lN75RPDEyBgTro_YX7x&index=4
+
+   about scaling: https://www.youtube.com/watch?v=aIxNm5Eed_8
+
+   data preprocessing apache beam:
+
+   there is colab version as well: https://beam.apache.org/get-started/try-apache-beam/
+
+   https://beam.apache.org/get-started/wordcount-example/
+
+   https://beam.apache.org/documentation/programming-guide/
+
+   tensorflow using beam style pipeline: https://www.tensorflow.org/tfx/transform/get_started
+
+   Autoscaling TensorFlow Model Deployments with TF Serving and Kubernetes:
+   https://www.cloudskillsboost.google/focuses/17649?parent=catalog
+
+   ML experiment tracking and experiment management:
+
+   https://towardsdatascience.com/machine-learning-experiment-tracking-93b796e501b0
+
+   https://neptune.ai/blog/experiment-management
+
+   MLOps methodologies and resources:
+
+   https://neptune.ai/blog/mlops
+
+   https://github.com/visenger/awesome-mlops
+
+
+   MLOps with TFX:
+   https://cloud.google.com/architecture/architecture-for-mlops-using-tfx-kubeflow-pipelines-and-cloud-build
+
+   Model Management:
+   https://neptune.ai/blog/machine-learning-model-management
+
+   Continuous Delivery:
+   https://continuousdelivery.com/
+
+   Progressive Delivery:
+   https://codefresh.io/docs/docs/ci-cd-guides/progressive-delivery/
+
+   Implementing Canary Releases of TensorFlow Model Deployments with Kubernetes and Anthos Service Mesh:
+   https://www.cloudskillsboost.google/focuses/18471?parent=catalog 
+
+
+   Monitoring and Logging:
+   https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/
+
+
+   Data Loss Prevention: Qwik Start - JSON:
+   https://www.cloudskillsboost.google/focuses/600?parent=catalog
+
+   Address Model Decay:
+   https://neptune.ai/blog/retraining-model-during-deployment-continuous-training-continuous-testing
+
+
+   Responsible AI:
+   https://ai.google/responsibilities/responsible-ai-practices/
+
+
+   Legal Requirements: 
+   GDPR and CCPA e.g. --> https://gdpr.eu/ and https://oag.ca.gov/privacy/ccpa etc.
+
+
+   All Tools and Resources:
+
+   https://cloud.google.com/memorystore
+
+   https://cloud.google.com/firestore
+
+   https://cloud.google.com/bigtable
+
+   https://aws.amazon.com/dynamodb/
+
+   https://arxiv.org/abs/1704.04861
+
+   https://rise.cs.berkeley.edu/projects/clipper/
+
+   https://www.tensorflow.org/tfx/guide/serving
+
+   https://medium.com/@vikati/the-rise-of-the-model-servers-9395522b6c58
+
+   https://www.tensorflow.org/tfx/serving/architecture
+
+   https://developer.nvidia.com/nvidia-triton-inference-server
+
+   https://github.com/pytorch/serve
+
+   https://www.kubeflow.org/docs/external-add-ons/serving/
+
+   https://phoenixnap.com/blog/what-is-container-orchestration
+
+   https://kubernetes.io/
+
+   https://docs.docker.com/engine/swarm/
+
+   https://www.kubeflow.org/
+
+   https://mlinproduction.com/batch-inference-vs-online-inference/
+
+   https://github.com/ertis-research/kafka-ml
+
+   https://cloud.google.com/pubsub
+
+   https://cloud.google.com/dataflow
+
+   https://spark.apache.org/
+
+   https://towardsdatascience.com/machine-learning-experiment-tracking-93b796e501b0
+
+   https://neptune.ai/blog/experiment-management
+
+   https://nbconvert.readthedocs.io/en/latest/
+
+   https://nbdime.readthedocs.io/en/latest/
+
+   https://jupytext.readthedocs.io/en/latest/install.html
+
+   https://docs.neptune.ai/
+
+   https://docs.neptune.ai/tutorials/data_versioning/
+
+   https://www.pachyderm.com/
+
+   https://delta.io/
+
+   https://git-lfs.com/
+
+   https://github.com/dolthub/dolt
+
+   https://lakefs.io/blog/data-versioning/
+
+   https://dvc.org/
+
+   https://blog.tensorflow.org/2021/01/ml-metadata-version-control-for-ml.html
+
+   https://www.tensorflow.org/tensorboard/image_summaries
+
+   https://neptune.ai/pricing
+
+   https://cloud.google.com/vertex-ai/docs/experiments/tensorboard-overview
+
+   https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning
+
+   https://blog.tensorflow.org/2020/01/creating-custom-tfx-component.html
+
+   https://github.com/tensorflow/tfx/blob/master/docs/guide/custom_component.md
+
+   https://www.split.io/glossary/progressive-delivery/
+
+   https://launchdarkly.com/blog/continuous-incrementalprogressive-delivery-pick-three/
+
+   https://dev.to/mostlyjason/intro-to-deployment-strategies-blue-green-canary-and-more-3a3
+
+   https://martinfowler.com/bliki/BlueGreenDeployment.html
+
+   https://medium.com/capital-one-tech/the-role-of-a-b-testing-in-the-machine-learning-future-3d2ba035daeb
+
+   Monitoring Related Tools And Resources:
+
+   https://papers.nips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf
+
+   https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/
+
+   https://cloud.google.com/monitoring
+
+   https://aws.amazon.com/cloudwatch/
+
+   https://learn.microsoft.com/en-us/azure/azure-monitor/overview
+
+   https://storage.googleapis.com/pub-tools-public-publication-data/pdf/36356.pdf
+
+   https://www.jaegertracing.io/
+
+   https://zipkin.io/
+
+   https://cloud.google.com/vertex-ai
+
+   https://cloud.google.com/vertex-ai/docs/datasets/label-using-console
+
+   https://www.kdnuggets.com/2020/08/anonymous-anonymized-data.html
+
+   https://dataprivacymanager.net/pseudonymization-according-to-the-gdpr/ 
