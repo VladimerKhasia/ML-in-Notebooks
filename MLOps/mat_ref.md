@@ -616,5 +616,50 @@ Continuous Evaluation and Monitoring:
 
 
 
+<br>
+
+Model Interpretability:
+
+   1. generally on interpretability:
+
+      method categorization: intrinsic vs post-hoc, model specific vs agnostic, local vs global etc.
+
+      designed to be or by nature intrinsicly interpretable. (mostly by nature: 
+
+      linear regression,logistic regression, tree based, tensorflow Lattice models [uses vertices,linear interpolations], knn, RuleFit)    
+
+      human intuition holds when: feature behaves monotonicly and/or its behavior matches domain knowledge
+
+      resources and tools: 
+
+      https://arxiv.org/pdf/1910.10045.pdf
+
+      https://jmlr.org/papers/volume17/15-243/15-243.pdf
+
+      https://www.tensorflow.org/lattice
+
+      https://christophm.github.io/interpretable-ml-book/ 
+
+   2. some model agnostic methods (mostly overlap with non-intrinsic, post-hoc methods):
+
+      partial dependence plots, augmented local effects, individual conditional expectation,
+
+      permutatin feature importance, local surrogate(LIME) and global surrogate, shap and shapley values, concept activation vectors
+
+      lime - https://github.com/marcotcr/lime
+
+      testing with concept activation vectors - https://arxiv.org/pdf/1711.11279.pdf   
+
+      more undestanding of explanations: 
+      https://proceedings.neurips.cc/paper/2017/file/8a20a8621978632d76c43dfd28b67767-Paper.pdf
+
+      https://arxiv.org/abs/1905.04610
+
+      https://arxiv.org/abs/1801.01489       
+
+      https://storage.googleapis.com/cloud-ai-whitepapers/AI%20Explainability%20Whitepaper.pdf
+
+      
+
 
    
