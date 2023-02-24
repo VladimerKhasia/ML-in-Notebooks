@@ -686,6 +686,8 @@ Model Interpretability:
 
    https://developer.nvidia.com/nvidia-triton-inference-server
 
+   <br>
+   
    kubernetes and kubeflow:
 
    https://kubernetes.io/docs/tutorials/kubernetes-basics/
@@ -698,6 +700,8 @@ Model Interpretability:
 
    about scaling: https://www.youtube.com/watch?v=aIxNm5Eed_8
 
+   <br>
+
    data preprocessing apache beam:
 
    there is colab version as well: https://beam.apache.org/get-started/try-apache-beam/
@@ -708,8 +712,12 @@ Model Interpretability:
 
    tensorflow using beam style pipeline: https://www.tensorflow.org/tfx/transform/get_started
 
+   <br>
+
    Autoscaling TensorFlow Model Deployments with TF Serving and Kubernetes:
    https://www.cloudskillsboost.google/focuses/17649?parent=catalog
+
+   <br>
 
    ML experiment tracking and experiment management:
 
@@ -717,47 +725,66 @@ Model Interpretability:
 
    https://neptune.ai/blog/experiment-management
 
+   <br>
+
    MLOps methodologies and resources:
 
    https://neptune.ai/blog/mlops
 
    https://github.com/visenger/awesome-mlops
 
+   <br>
 
    MLOps with TFX:
    https://cloud.google.com/architecture/architecture-for-mlops-using-tfx-kubeflow-pipelines-and-cloud-build
 
+   <br>
+
    Model Management:
    https://neptune.ai/blog/machine-learning-model-management
+
+   <br>
 
    Continuous Delivery:
    https://continuousdelivery.com/
 
+   <br>
+
    Progressive Delivery:
    https://codefresh.io/docs/docs/ci-cd-guides/progressive-delivery/
+
+   <br>
 
    Implementing Canary Releases of TensorFlow Model Deployments with Kubernetes and Anthos Service Mesh:
    https://www.cloudskillsboost.google/focuses/18471?parent=catalog 
 
+   <br>
 
    Monitoring and Logging:
    https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/
 
+   <br>
 
    Data Loss Prevention: Qwik Start - JSON:
    https://www.cloudskillsboost.google/focuses/600?parent=catalog
 
+   <br>
+
    Address Model Decay:
    https://neptune.ai/blog/retraining-model-during-deployment-continuous-training-continuous-testing
 
+   <br>
 
    Responsible AI:
    https://ai.google/responsibilities/responsible-ai-practices/
 
+   <br>
 
    Legal Requirements: 
    GDPR and CCPA e.g. --> https://gdpr.eu/ and https://oag.ca.gov/privacy/ccpa etc.
 
+   <br>
+   
 
    All Tools and Resources:
 
