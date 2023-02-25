@@ -673,6 +673,36 @@ Model Interpretability:
 
 **PART 4 - Serving and Maintainance:**
 
+1. Model Serving Infrastructure:
+
+	NoSQL:
+
+	google cloud memory store/amazon dynamoDB - fast lookup,in memory cache
+	google cloud firestore - handels slowly changing data
+	google cloud bigtable - handels dinamically changing data
+
+	Server: 
+
+	any managed cloud platform, or something like tensorflow serving (gRPC,REST), clipper https://github.com/simon-mo/clipper/tree/develop
+   
+	tf.serving two options: tensorflowmodel-server, tensorflow-model-server-universal (includes only basic optimizations, runs on most machines)
+
+	Mobile: average app 11mb, whole gpu 4gb, tweak threads?
+
+2. Scaling:
+
+	scale horizontally, 
+
+	use containers(docker), use container orcestrarion tools (kubernetes, docker swarm)
+
+	use Kubeflow for deploying ML workflows(data ingestion, feature extraction, model management etc) on Kubernetes
+
+3. Extract Transform Load:
+
+	apache beam (+Cloud DataFlow), parts of TFX, apache spark, kafka can be used
+
+	+ for common casses radymade preprocessed versions of data can be used in cache (e.g. common words etc.)
+
 
 0. PART 4 Resources:
 
