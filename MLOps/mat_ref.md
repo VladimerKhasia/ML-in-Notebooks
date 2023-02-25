@@ -716,6 +716,7 @@ Model Interpretability:
 
             major for incompatible API changes, minor for backwards compatible new functionalities, patch/pipeline just backwards compatible bug
          fixes
+         
             some model repositories: Azure ml model registry, sas model manager, MLflow model registry, google AI platform, algorithmia
 
       log, tag, organize, make experiments searchable and shareable(neptune ai tools, tensorboard etc.)
