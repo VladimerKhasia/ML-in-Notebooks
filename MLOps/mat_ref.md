@@ -684,7 +684,7 @@ Model Interpretability:
 	Server: 
 
 	any managed cloud platform, or something like tensorflow serving (gRPC,REST), clipper https://github.com/simon-mo/clipper/tree/develop
-   
+
 	tf.serving two options: tensorflowmodel-server, tensorflow-model-server-universal (includes only basic optimizations, runs on most machines)
 
 	Mobile: average app 11mb, whole gpu 4gb, tweak threads?
@@ -701,7 +701,50 @@ Model Interpretability:
 
 	apache beam (+Cloud DataFlow), parts of TFX, apache spark, kafka can be used
 
-	+ for common casses radymade preprocessed versions of data can be used in cache (e.g. common words etc.)
+	for common casses radymade preprocessed versions of data can be used in cache (e.g. common words etc.)
+
+4. Management:
+	- Experiment and Track Experiments: 
+
+	  track runtime parameters - in config files or via command line
+
+	  convert from .ipynb to .py - using bnconvert, nbdime, jupytext, neptune notebooks (and organize code instead of notebook format)
+
+     use data versioning tools: Neptune, Pachyderm, Delta Lake, Git LFS, Dolt, lakeFS, DVC, ML-Metadata
+
+	  use model versioning (major.minor.patch) and model registries(central repository of all model versions):
+
+		- major for incompatible API changes, minor for backwards compatible new functionalities, patch/pipeline just backwards compatible bug
+        fixes
+		- some model repositories: Azure ml model registry, sas model manager, MLflow model registry, google AI platform, algorithmia
+
+	  log, tag, organize, make experiments searchable and shareable(neptune ai tools, tensorboard etc.)
+
+	  set baseline and get first comparison against it
+
+	  define next steps for improvement and for meeting your business goals (latency, cost etc.)
+
+	  https://towardsdatascience.com/machine-learning-experiment-tracking-93b796e501b0 and https://neptune.ai/blog/experiment-management
+
+	- Continuous Integration - testing and validation of data, schemes, models etc.
+
+	- Continuous Delivery - automatized deployments, infrastructure validation e.g. with TFX InfraValidator that lunches sandbox-model for 
+     validation (e.g. new retrained version etc.)
+
+	- Continuous Monitoring - for catching errors and potential problems early (e.g. catch concept drift, model decay, model security etc.)
+
+	- Continuous Training - automatic retraining and testing of models (e.g. as response to data or concept drift)
+
+	- Progressive Delivery:
+
+		- blue-green deployment (new green version for everyone, older blue as backup), canary deployment (same as blue-green, but new green for 
+        only small group and than increase gradually)	
+
+		- live testing with A/B testing (test 2 or multiple versions on 2 or multiple groups), A/B testing with multy armed bandits, or with      
+        contextual bandits (e.g. selling clothing in hot vs cold country)
+
+	- more automation is sign of more maturity
+
 
 
 0. PART 4 Resources:
