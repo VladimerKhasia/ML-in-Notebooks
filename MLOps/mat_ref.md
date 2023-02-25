@@ -706,25 +706,25 @@ Model Interpretability:
 4. Management:
 	- Experiment and Track Experiments: 
 
-	  track runtime parameters - in config files or via command line
+      track runtime parameters - in config files or via command line
 
-	  convert from .ipynb to .py - using bnconvert, nbdime, jupytext, neptune notebooks (and organize code instead of notebook format)
+      convert from .ipynb to .py - using bnconvert, nbdime, jupytext, neptune notebooks (and organize code instead of notebook format)
 
-     use data versioning tools: Neptune, Pachyderm, Delta Lake, Git LFS, Dolt, lakeFS, DVC, ML-Metadata
+      use data versioning tools: Neptune, Pachyderm, Delta Lake, Git LFS, Dolt, lakeFS, DVC, ML-Metadata
 
-	  use model versioning (major.minor.patch) and model registries(central repository of all model versions):
+      use model versioning (major.minor.patch) and model registries(central repository of all model versions):
 
-		- major for incompatible API changes, minor for backwards compatible new functionalities, patch/pipeline just backwards compatible bug
-        fixes
-		- some model repositories: Azure ml model registry, sas model manager, MLflow model registry, google AI platform, algorithmia
+            major for incompatible API changes, minor for backwards compatible new functionalities, patch/pipeline just backwards compatible bug
+         fixes
+            some model repositories: Azure ml model registry, sas model manager, MLflow model registry, google AI platform, algorithmia
 
-	  log, tag, organize, make experiments searchable and shareable(neptune ai tools, tensorboard etc.)
+      log, tag, organize, make experiments searchable and shareable(neptune ai tools, tensorboard etc.)
 
-	  set baseline and get first comparison against it
+      set baseline and get first comparison against it
 
-	  define next steps for improvement and for meeting your business goals (latency, cost etc.)
+      define next steps for improvement and for meeting your business goals (latency, cost etc.)
 
-	  https://towardsdatascience.com/machine-learning-experiment-tracking-93b796e501b0 and https://neptune.ai/blog/experiment-management
+      https://towardsdatascience.com/machine-learning-experiment-tracking-93b796e501b0 and https://neptune.ai/blog/experiment-management
 
 	- Continuous Integration - testing and validation of data, schemes, models etc.
 
