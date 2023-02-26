@@ -745,6 +745,10 @@ Model Interpretability:
 
 	- more automation is sign of more maturity
 
+   - system performance monitoring:  as you deal with complex system, it is difficult to know which part(s) actualy cause e.g. latency.
+     for tracing individual component performances there are so called Dapper style tracing implementation using Dapper, Zipkin, Jaeger. 
+     https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/     
+
 
 
 0. PART 4 Resources:
