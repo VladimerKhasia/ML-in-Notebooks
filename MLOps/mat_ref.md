@@ -18,6 +18,8 @@
 
 ## Hands-on Labs:
 
+- deeplearning.ai exercises: https://github.com/https-deeplearning-ai/machine-learning-engineering-for-production-public 
+
 - google cloud:   https://www.cloudskillsboost.google/focuses/2794?parent=catalog
 
 - distributed multi-worker tensorflow training on kubernetes: https://www.cloudskillsboost.google/focuses/17646?parent=catalog
