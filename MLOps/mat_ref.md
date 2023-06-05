@@ -974,3 +974,7 @@ Model Interpretability:
    https://www.kdnuggets.com/2020/08/anonymous-anonymized-data.html
 
    https://dataprivacymanager.net/pseudonymization-according-to-the-gdpr/ 
+   
+   You might also want to check other somewhat related repositories:
+   
+   https://github.com/The-AI-Summer/Deep-Learning-In-Production
