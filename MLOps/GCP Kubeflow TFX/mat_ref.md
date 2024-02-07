@@ -978,3 +978,9 @@ Model Interpretability:
    You might also want to check other somewhat related repositories:
    
    https://github.com/The-AI-Summer/Deep-Learning-In-Production
+
+   Other Google managed Labs and Materials:
+   - All: https://www.cloudskillsboost.google/paths
+   - ML Engineering: https://www.cloudskillsboost.google/paths/17
+   - Generative AI: https://www.cloudskillsboost.google/paths/183 
+   - Duet AI & Summit AI: https://www.cloudskillsboost.google/paths/236  and  https://www.cloudskillsboost.google/paths/280
