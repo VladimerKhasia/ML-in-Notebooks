@@ -2,6 +2,6 @@ Aim of this directory is to show how different elements of RAG work with custom 
 
 Reference: [LangChain examples](https://github.com/langchain-ai/rag-from-scratch/tree/main?tab=readme-ov-file) 
 
+This picture from LangChain describes the composition of RAG.
 
-![This picture from LangChain describes the composition of RAG.](https://private-user-images.githubusercontent.com/122662504/302837092-54a2d76c-b07e-49e7-b4ce-fc45667360a1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTM0NTc2NTksIm5iZiI6MTcxMzQ1NzM1OSwicGF0aCI6Ii8xMjI2NjI1MDQvMzAyODM3MDkyLTU0YTJkNzZjLWIwN2UtNDllNy1iNGNlLWZjNDU2NjczNjBhMS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDE4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQxOFQxNjIyMzlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kN2Q3ZWYzNWU1OGY3Zjc3YzlhNDkwMjIyODVlN2ZiNDViMTE1NWFlNTFjMjBhYTg5MjJlMTlhOTVkOTFlZDllJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.5jBCUkuPGGHO0GWFW3x5iiYR03bXoUP0PU2ndxkO2Rw)
-
+![302837092-54a2d76c-b07e-49e7-b4ce-fc45667360a1](https://github.com/VladimerKhasia/ML-in-Notebooks/assets/56228503/4bddcb7f-dc00-4474-8241-d80f39806a39)
