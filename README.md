@@ -7,3 +7,5 @@ The goal of these notebooks is to provide me and other lifelong learners with go
 P.S.
 
 Please note that files here are mostly created in google colab. Therefore if you use them outside google colab, you may need to adjust the file paths, or you may need to install some packages that are directly imported and used here. 
+
+>🧯 🔥 GitHub sometimes has difficulty displaying Google Colab and Jupyter Notebook files. If this happens, paste the URL of the file you want to view into `nbviewer`: https://nbviewer.org/ 
